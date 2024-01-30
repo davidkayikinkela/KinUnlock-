@@ -63,6 +63,7 @@ div.logo h1 span{
     color: gray;
     transition: 0.5s;
     font-size: 28px;
+    text-decoration: none;
 }
 .menu li a:hover{
     color: rgb(98, 144, 230);
@@ -110,16 +111,17 @@ div.logo h1 span{
 /* tab */
 @media (max-width:1280px) {
     div.logo img{
-        width: 150px;
-        height: 130px;
+        width: 50px;
+        height: 40px;
+        margin-left: -25px;
     }
     div.logo h1{
-        font-size: 55px;
+        font-size: 25px;
         color: gray;
     }
     
     html{
-        width: 1280px;
+        width: 100%;
     }
     .menu_liste{
         display: block;
@@ -133,7 +135,7 @@ div.logo h1 span{
         position: absolute;
         background-color: rgba(172, 172, 172, 0.829);
         backdrop-filter: blur(7px);
-        width: 1280px;
+        width: 100%;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -147,8 +149,10 @@ div.logo h1 span{
         margin-left: 0;
     }
     .menu li a{
-        font-size: 55px;
-        margin: 70px 0;
+        
+        font-size: 22px;
+        margin-left: -17%;
+        margin-bottom: 60px;
         transition: 0.5s;
         color: rgb(78, 78, 78);
 
@@ -158,7 +162,7 @@ div.logo h1 span{
         display: none;
     }
     .menu li a:hover{
-        font-size: 40px;
+        font-size: 18px;
         
     }
 
@@ -169,7 +173,7 @@ div.logo h1 span{
         position: fixed;
         background-color: white;
         width: 100%;
-        margin-top: -18px;
+        margin-top: -10px;
     }
    
 }
@@ -178,20 +182,26 @@ div.logo h1 span{
 
 @media (max-width:500px){
     html{
-        width: 1000px;
+        width: 100%;
     }
     .menu_liste{
-        margin-left: 860px  ;
-        width: 70px;
+        margin-left: 80%;
+        width: 30px;
     }
     .menu{
-        width: 1000px;
-        height: 1805px;
+        width: 100%;
+        height: 670px;
+        
+    }
+    header{
+        position: fixed;
+        background-color: white;
+        width: 100%;
         
     }
     
+    
 }
-
 
 /* find */
 
@@ -250,18 +260,28 @@ div.logo h1 span{
 
 /* tab */
 @media (max-width:1280px){
-    .fond{
-        margin: 15%;
-        margin-top: 260px;
-        margin-bottom: 200px;
+    div.fond{
+        height: 400px;
+        margin: 10%;
+        margin-top: 130px;
+        margin-bottom: 80px;
     }
-    .fond p{
-        font-size: 35px;
+    .find1 h1{
+        margin-top: 20px;
+        font-size: 25px;
     }
-    .find2 {
-        width: 340px;
-        margin-left: 32%;
-        height: 70px;
+    div.fond p{
+        font-size: 23px;
+        padding: 15px;
+    }
+    div.find2 {
+        margin-top: -60px;
+        margin-left: 10%;
+        height: 40px;
+        width: 80%;
+    }
+    div.find2 a{
+        font-size: 25px;
     }
     
 
@@ -392,6 +412,7 @@ div.logo h1 span{
 @media (max-width:1280px){
     .fin111{
         display: flex;
+        margin-left: 10px;
     }
     .fin111 p{
         display: none;
@@ -399,49 +420,49 @@ div.logo h1 span{
     .fin11{
         flex-direction: column;
         align-items: normal;
-        width: 100%;
+        width: 90%;
     }
     .fin111 img{
-        width: 34pc;
-        margin-left: 50Px;
-    }
-    .fin111 h2{
-        width: 200%;
+        margin-top: 30px;
+        margin-left: -5px;
+        width: 13pc;
     }
     .fin112{
-        align-items: center;
         display: flex;
         justify-content: center;
-        margin-left: -50px;
-        margin-top: -30px;
-        margin-bottom: 40Px;
+        margin-top: 10px;
+        margin-bottom: 10Px;
     }
     .fin12{
-        font-size: 35px;
+        font-size: 18px;
     }
     .imp{
         display: block;
-        font-size: 35px;
+        font-size: 18px;
     }
     .fin111 h1{
-        font-size: 50px;
+        font-size: 25px;
     }
     .fin111 h2{
-        font-size: 32px;
-        width: 140%;
+        font-size: 15px;
+        width: 110%;
         margin-bottom: 30px;
     }
     .fin111 h2 a{
-        font-size: 32px;
+        font-size: 15px;
     }
     .fin1121 h2{
-        font-size: 30px;
+        font-size: 15px;
+        margin-top: 0px;
     }
     .fin1121 li a{
-        font-size: 28px;
+        font-size: 15px;
+    }
+    .fin12{
+        margin-left: 10px;
     }
     .fin12 p{
-        font-size: 30px;
+        
+        font-size: 15px;
     }
 }
-

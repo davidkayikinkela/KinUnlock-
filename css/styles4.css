@@ -63,6 +63,7 @@ div.logo h1 span{
     color: gray;
     transition: 0.5s;
     font-size: 28px;
+    text-decoration: none;
 }
 .menu li a:hover{
     color: rgb(98, 144, 230);
@@ -110,16 +111,17 @@ div.logo h1 span{
 /* tab */
 @media (max-width:1280px) {
     div.logo img{
-        width: 150px;
-        height: 130px;
+        width: 50px;
+        height: 40px;
+        margin-left: -25px;
     }
     div.logo h1{
-        font-size: 55px;
+        font-size: 25px;
         color: gray;
     }
     
     html{
-        width: 1080px;
+        width: 100%;
     }
     .menu_liste{
         display: block;
@@ -133,7 +135,7 @@ div.logo h1 span{
         position: absolute;
         background-color: rgba(172, 172, 172, 0.829);
         backdrop-filter: blur(7px);
-        width: 1280px;
+        width: 100%;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -147,8 +149,10 @@ div.logo h1 span{
         margin-left: 0;
     }
     .menu li a{
-        font-size: 55px;
-        margin: 70px 0;
+        
+        font-size: 22px;
+        margin-left: -17%;
+        margin-bottom: 60px;
         transition: 0.5s;
         color: rgb(78, 78, 78);
 
@@ -158,7 +162,7 @@ div.logo h1 span{
         display: none;
     }
     .menu li a:hover{
-        font-size: 40px;
+        font-size: 18px;
         
     }
 
@@ -169,34 +173,35 @@ div.logo h1 span{
         position: fixed;
         background-color: white;
         width: 100%;
-        margin-top: -18px;
+        margin-top: -10px;
     }
-    
-      html{
-        width: 1000px;
-    }
-    .menu_liste{
-        margin-left: 860px  ;
-        width: 70px;
-    }
-    .menu{
-        width: 1000px;
-        height: 1805px;
-        
-    }
+   
 }
 
 /* phone */
 
 @media (max-width:500px){
- 
+    html{
+        width: 100%;
+    }
+    .menu_liste{
+        margin-left: 80%;
+        width: 30px;
+    }
+    .menu{
+        width: 100%;
+        height: 670px;
+        
+    }
+    header{
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        
+    }
+    
     
 }
-
-
-
-
-
 
 
 
@@ -321,11 +326,12 @@ button{
         flex-direction: column;
     }
     .imagee img{
-        width: 25pc;
-        margin-bottom: 100px;
+        width: 12pc;
+        margin-bottom: 60px;
+
     }
     .form-imge form{
-        width: 45pc;
+        width: 18pc;
         display: flex;
         flex-direction: column;
     
@@ -335,46 +341,62 @@ button{
         margin-bottom: 20px;
     }
     
-    .form-imge form input , textarea{
-        margin: 10px 0;
+    .form-imge form input {
+        margin: 5px 0;
         padding: 18px;
-        border-radius: 30px;
+        border-radius: 20px;
+        background-color: rgba(177, 176, 176, 0.342);
+        border: 0;
+        outline: 0;
+        height: 20px;
+        resize: none;
+        width: 100%;
+        font-size: 17px;
+    
+    
+    }
+    .form-imge textarea{
+        margin: 5px 0;
+        padding: 18px;
+        border-radius: 20px;
         background-color: rgba(177, 176, 176, 0.342);
         border: 0;
         outline: 0;
         resize: none;
         width: 100%;
-        font-size: 32px;
-    
-    
+        font-size: 17px;
+
     }
     button{
         margin-top: 20px;
         padding: 10px 25px;
         background: linear-gradient(rgb(98, 144, 230),gray);
         border-radius: 60px;
-        height: 90px;
+        height: 40px;
         color: white;
-        font-size: 35px;
+        font-size: 12px;
         cursor: pointer;
         margin-bottom: 50px;
         margin-left: 0%;
     
     }
     .contacte h1{
-        margin-top: 10pc;
-        font-size: 55px;
-        margin-bottom: 50px;
+        margin-top: 5pc;
+        font-size: 30px;
+        margin-bottom: 20px;
     }
     .contacte h2{
         margin-bottom: 30px;
-        font-size: 35px;
+        font-size: 18px;
     }
     .imagee h3{
         margin-top: 50px;
-        font-size: 35px;
+        font-size: 20px;
         margin-bottom: 60px;
     } 
+    .contacte h4{
+        font-size: 17px;
+    }
 
 
 }
@@ -472,6 +494,7 @@ button{
 @media (max-width:1280px){
     .fin111{
         display: flex;
+        margin-left: 10px;
     }
     .fin111 p{
         display: none;
@@ -479,49 +502,49 @@ button{
     .fin11{
         flex-direction: column;
         align-items: normal;
-        width: 100%;
+        width: 90%;
     }
     .fin111 img{
-        width: 34pc;
-        margin-left: 50Px;
-    }
-    .fin111 h2{
-        width: 200%;
+        margin-top: 30px;
+        margin-left: -5px;
+        width: 13pc;
     }
     .fin112{
-        align-items: center;
         display: flex;
         justify-content: center;
-        margin-left: -50px;
-        margin-top: -30px;
-        margin-bottom: 40Px;
+        margin-top: 10px;
+        margin-bottom: 10Px;
     }
     .fin12{
-        font-size: 35px;
+        font-size: 18px;
     }
     .imp{
         display: block;
-        font-size: 35px;
+        font-size: 18px;
     }
     .fin111 h1{
-        font-size: 50px;
+        font-size: 25px;
     }
     .fin111 h2{
-        font-size: 32px;
-        width: 140%;
+        font-size: 15px;
+        width: 110%;
         margin-bottom: 30px;
     }
     .fin111 h2 a{
-        font-size: 32px;
+        font-size: 15px;
     }
     .fin1121 h2{
-        font-size: 30px;
+        font-size: 15px;
+        margin-top: 0px;
     }
     .fin1121 li a{
-        font-size: 28px;
+        font-size: 15px;
+    }
+    .fin12{
+        margin-left: 10px;
     }
     .fin12 p{
-        font-size: 30px;
+        
+        font-size: 15px;
     }
 }
-

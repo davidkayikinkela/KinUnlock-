@@ -16,8 +16,7 @@ a{
 ::-webkit-scrollbar{
     width: 8px;
 }
-::-webkit-scrollbar-thumb{
-    background-color: gray;
+::-webkit-scrollbar-thumb{    background-color: gray;
     border-radius: 30px;
 }
 
@@ -40,7 +39,7 @@ div.logo img{
     height: 110px;
 }
 div.logo h1{
-    font-size: 50px;
+    font-size: 45px;
     color: gray;
 }
 div.logo h1 span{
@@ -62,7 +61,8 @@ div.logo h1 span{
 .menu li a{
     color: gray;
     transition: 0.5s;
-    font-size: 28px;
+    font-size: 23px;
+    text-decoration: none;
 }
 .menu li a:hover{
     color: rgb(98, 144, 230);
@@ -110,16 +110,17 @@ div.logo h1 span{
 /* tab */
 @media (max-width:1280px) {
     div.logo img{
-        width: 150px;
-        height: 130px;
+        width: 50px;
+        height: 40px;
+        margin-left: -25px;
     }
     div.logo h1{
-        font-size: 55px;
+        font-size: 25px;
         color: gray;
     }
     
     html{
-        width: 1280px;
+        width: 100%;
     }
     .menu_liste{
         display: block;
@@ -133,7 +134,7 @@ div.logo h1 span{
         position: absolute;
         background-color: rgba(172, 172, 172, 0.829);
         backdrop-filter: blur(7px);
-        width: 1280px;
+        width: 100%;
         height: 800px;
         display: flex;
         justify-content: center;
@@ -147,8 +148,10 @@ div.logo h1 span{
         margin-left: 0;
     }
     .menu li a{
-        font-size: 55px;
-        margin: 70px 0;
+        
+        font-size: 22px;
+        margin-left: -17%;
+        margin-bottom: 60px;
         transition: 0.5s;
         color: rgb(78, 78, 78);
 
@@ -158,7 +161,7 @@ div.logo h1 span{
         display: none;
     }
     .menu li a:hover{
-        font-size: 40px;
+        font-size: 18px;
         
     }
 
@@ -169,7 +172,7 @@ div.logo h1 span{
         position: fixed;
         background-color: white;
         width: 100%;
-        margin-top: -50px;
+        margin-top: -10px;
     }
    
 }
@@ -178,16 +181,22 @@ div.logo h1 span{
 
 @media (max-width:500px){
     html{
-        width: 1000px;
+        width: 100%;
     }
     .menu_liste{
-        margin-left: 860px  ;
-        width: 70px;
+        margin-left: 80%;
+        width: 30px;
     }
     .menu{
-        width: 1000px;
-        height: 1785px;
+        width: 100%;
+        height: 670px;
         
+    }
+    header{
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        margin-top: -50px;
     }
     
     
@@ -224,7 +233,7 @@ img.bg{
     box-shadow: 0 0 10px black;
 }
 .text h1{
-    font-size: 140px;
+    font-size: 100px;
     color: gray;
     font-weight: 600;
     padding: 0;
@@ -237,7 +246,7 @@ img.bg{
 }
 .text h4{
     font-weight: 500;
-    font-size: 27px;
+    font-size: 23px;
     margin-top: 15px;
     margin-bottom: 10px;
     color: rgb(65, 65, 65);
@@ -247,21 +256,22 @@ img.bg{
 
 /* tab */
 @media (max-width:1280px){
+    #home{
+        height: 0px;
+    }
     .text h1{
-        font-size: 80px;
+        margin-top: 28pc;
+        font-size: 40px;
     }
     .text h4{
-        font-size: 35px;
-    }
-    .text{
-        height: 500px;
+        font-size: 17px;
     }
 
     .bg{
         display: none;
     }
     .text{
-        margin-top: -200px ;
+        margin-top: 0px ;
         width: 100%;
         
     }
@@ -270,8 +280,7 @@ img.bg{
 
 @media (max-width:500px){
     .text h1{
-        margin-bottom: 60px;
-        margin-top:220px;
+        margin-bottom: 30px;
     }
     
 
@@ -302,14 +311,14 @@ img.bg{
 }
 .service h2{
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 30px;
 }
 .service p{
     text-align: center;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .service2{
     background-color: rgb(65, 65, 65);
@@ -329,39 +338,40 @@ img.bg{
 }
 .service button a{
     color: white;
-    font-size: 28px;
+    font-size: 23px;
     transition: 0.5s;
 }
 .service button a:hover{
-    font-size: 35px;
+    font-size: 27px;
 }
 /* tab */
 @media (max-width:1280px) {
     .service1{
-        height: 50pc;
+        height: 10pc;
     }
     .service2{
         height: 50pc;
     }
     .service{
-        margin-top: -80px;
+        margin-top: 0px;
     }
     .service h2{
-        font-size: 45px;
+        font-size: 20px;
     }
     .service p{
-        font-size: 35px;
+        font-size: 17px;
     }
     .service button{
-        width: 70%;
-        height: 100px;
-        margin-left: 15%;
+        width: 80%;
+        height: 40px;
+        margin-left: 12%;
+        margin-top: 20px;
     }
     .service button a{
-        font-size: 35px;
+        font-size: 14px;
     }
     .service button a:hover{
-        font-size: 35px;
+        font-size: 14px;
     }
 }
 
@@ -373,15 +383,19 @@ img.bg{
         
     }
     .service1{
-        margin-top: 150px;
-        width: 57pc;
+        margin-top: 20pc;
+        width: 100%;
         margin-left: 50px;
-        height: 33pc;
+        height: 22pc;
     }
     .service2{
         margin-top: 40px;
-        height: 38pc;
+        height: 29pc;
         
+    }
+    .service h2{
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 
 }
@@ -544,23 +558,30 @@ img.bg{
 
 /* tab */
 @media (max-width:1280px) {
+    .img1{
+        margin-top: 50px;
+        width: 20%;
+    }
     .deuxieme h2{
-        font-size: 40px;
+        font-size: 20px;
     }
     .deuxieme p{
-        font-size: 35px;
+        font-size: 18px;
     }
     .option1 h2{
-        font-size: 45px;
+        font-size: 20px;
     }
     .option1 p{
-        font-size: 35px;
+        font-size: 18px;
     }
     .option{
         flex-direction: column;
     }
     .option h1{
-        margin-left: 44%;
+        margin-top: 30px;
+        width: 75px;
+        font-size: 60px;
+        margin-left: 40%;
 
     }
     .option p{
@@ -569,17 +590,29 @@ img.bg{
        
     }
     .option1 p a{
-        font-size: 35px;
+        font-size: 18px;
     }
     .option1{
         width: 100%;
     }
     .option2{
-        width: 95%;
-        margin-left: none;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .option2 h2{
+        font-size: 20px;
+    }
+    .option2 p{
+        font-size: 18px;
     }
     .option3{
         width: 100%;
+    }
+    .option3 h2{
+        font-size: 20px;
+    }
+    .option3 p{
+        font-size: 18px;
     }
 }
 
@@ -633,9 +666,6 @@ img.bg{
     .liste h1{
         font-size: 35px;
     }
-    .liste h1{
-        font-size: 40px;
-    }
 }
 /* phone */
 @media (max-width:500px){
@@ -656,7 +686,7 @@ img.bg{
         display: block;
     }
     .listee h1{
-        font-size: 45px;
+        font-size: 25px;
         text-align: center;
         margin-top: 50px;
         text-decoration: underline;
@@ -731,15 +761,15 @@ img.bg{
 
 @media (max-width:1280px){
     .text1 h2{
-        font-size: 43px;
+        font-size: 25px;
 
     }
     .pp{
-        font-size: 35px;
+        font-size: 18px;
         width: 99%;
     }
     .liste p{
-        font-size: 35px;
+        font-size: 18px;
         width: 99%;
 
     }
@@ -757,9 +787,11 @@ img.bg{
 @media (max-width:500px){
     .bg2{
         width: 90%;
-        height: 50%px;
+        height: 30%;
     } 
     .verrou img{
+        margin-top: 30px;
+        width: 40%;
         margin-bottom: -60px;
     }  
     .verrou{
@@ -856,27 +888,49 @@ img.bg{
 
 @media (max-width:1280px){
     .prqg img{
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
+    }
+    .prq{
+        margin-left: 0px;
     }
     .prq h1{
-        font-size: 45px;
+        margin-top: 50px;
+        margin-left: 30px;
+        font-size: 25px;
     }
     .prq p{
         color: gray;
-        font-size: 35px;
+        margin-left: 30px;
+        font-size: 18px;
+        margin-bottom: -50px;
     }
     .prqg1 h1{
-        font-size: 40px;
+        font-size: 20px;
     }
     .prqg2 h1{
-        font-size: 40px;
+        font-size: 20px;
     }
     .prqg1 p{
-        font-size: 35px;
+        font-size: 18px;
     }
     .prqg2 p{
-        font-size: 35px;
+        font-size: 18px;
+    }
+    .prq4{
+        margin-left: 20px;
+        margin-right: 20px;
+    
+    }
+    .prq2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .prq1 img{
+        margin-left: 40px;
+    }
+    .prq3 img{
+        margin-left: -110px;     
     }
 
 }
@@ -985,6 +1039,7 @@ img.bg{
 @media (max-width:1280px){
     .fin111{
         display: flex;
+        margin-left: 10px;
     }
     .fin111 p{
         display: none;
@@ -992,48 +1047,49 @@ img.bg{
     .fin11{
         flex-direction: column;
         align-items: normal;
-        width: 100%;
+        width: 90%;
     }
     .fin111 img{
-        width: 34pc;
-        margin-left: 50Px;
-    }
-    .fin111 h2{
-        width: 200%;
+        margin-top: 30px;
+        margin-left: -5px;
+        width: 13pc;
     }
     .fin112{
-        align-items: center;
         display: flex;
         justify-content: center;
-        margin-left: -50px;
-        margin-top: -30px;
-        margin-bottom: 40Px;
+        margin-top: 10px;
+        margin-bottom: 10Px;
     }
     .fin12{
-        font-size: 35px;
+        font-size: 18px;
     }
     .imp{
         display: block;
-        font-size: 35px;
+        font-size: 18px;
     }
     .fin111 h1{
-        font-size: 50px;
+        font-size: 25px;
     }
     .fin111 h2{
-        font-size: 32px;
-        width: 140%;
+        font-size: 15px;
+        width: 110%;
         margin-bottom: 30px;
     }
     .fin111 h2 a{
-        font-size: 32px;
+        font-size: 15px;
     }
     .fin1121 h2{
-        font-size: 30px;
+        font-size: 15px;
+        margin-top: 0px;
     }
     .fin1121 li a{
-        font-size: 28px;
+        font-size: 15px;
+    }
+    .fin12{
+        margin-left: 10px;
     }
     .fin12 p{
-        font-size: 30px;
+        
+        font-size: 15px;
     }
 }
