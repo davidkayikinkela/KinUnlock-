@@ -35,11 +35,11 @@ div.logo{
 
 }
 div.logo img{
-    width: 90px;
-    height: 70px;
+    width: 70px;
+    height: 50px;
 }
 div.logo h1{
-    font-size: 30px;
+    font-size: 25px;
     color: gray;
 }
 div.logo h1 span{
@@ -61,7 +61,7 @@ div.logo h1 span{
 .menu li a{
     color: gray;
     transition: 0.5s;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
 }
 .menu li a:hover{
@@ -75,7 +75,7 @@ div.logo h1 span{
 
 }
 .numéro{
-    font-size: 23px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     padding: 0px 25px;
     background: linear-gradient(rgb(98, 144, 230),gray);
@@ -95,7 +95,7 @@ div.logo h1 span{
 }
 .numéro p{
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 

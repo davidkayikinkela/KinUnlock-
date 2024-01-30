@@ -36,11 +36,11 @@ div.logo{
 
 }
 div.logo img{
-    width: 140px;
-    height: 110px;
+    width: 70px;
+    height: 50px;
 }
 div.logo h1{
-    font-size: 50px;
+    font-size: 25px;
     color: gray;
 }
 div.logo h1 span{
@@ -62,12 +62,12 @@ div.logo h1 span{
 .menu li a{
     color: gray;
     transition: 0.5s;
-    font-size: 28px;
+    font-size: 13px;
     text-decoration: none;
 }
 .menu li a:hover{
     color: rgb(98, 144, 230);
-    font-size: 35px;
+    font-size: 19px;
 }
 .menu li:hover::after{
     content: "";
@@ -76,7 +76,7 @@ div.logo h1 span{
 
 }
 .numéro{
-    font-size: 27px;
+    font-size: 18px;
     color: rgb(255, 255, 255);
     padding: 0px 25px;
     background: linear-gradient(rgb(98, 144, 230),gray);
@@ -88,7 +88,7 @@ div.logo h1 span{
     align-items: center;
 }
 .numéro img{
-    width: 80px;
+    width: 40px;
     margin-left: -25px;
     margin-right: 30px;
     border-radius: 60px;
@@ -96,7 +96,7 @@ div.logo h1 span{
 }
 .numéro p{
     margin-right: 20px;
-    font-size: 29px;
+    font-size: 18px;
     color: white;
 }
 
@@ -218,7 +218,7 @@ div.logo h1 span{
 
 }
 .title h1{
-    font-size: 50px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     margin-top: 100px;
@@ -228,7 +228,7 @@ div.logo h1 span{
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
-    font-size: 28px;
+    font-size: 18px;
 
 }
 .infopr{
@@ -239,7 +239,7 @@ div.logo h1 span{
 .infopr h2{
     text-align: center;
     margin-bottom: 35px;
-    font-size: 28px;
+    font-size: 18px;
 }
 
 .bg{
@@ -257,7 +257,7 @@ div.logo h1 span{
 .bg1 h4{
     margin-bottom: 40px;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
 }
 .bg11{
     display: flex;
@@ -266,12 +266,12 @@ div.logo h1 span{
     margin-bottom: 20px;
 }
 .bg11 img{
-    width: 80px;
+    width: 50px;
     margin-left: 60px;
     
 }
 .bg11 p{
-    font-size: 28px;
+    font-size: 18px;
     margin-left: 10px;
     margin-top: 3px;
 }
@@ -415,7 +415,7 @@ button{
     margin-top: -60px;
     text-align: center;
     margin-bottom: 40px;
-    font-size: 28px;
+    font-size: 18px;
     width: 90%;
     margin-left: 30px;
 
@@ -423,7 +423,7 @@ button{
 .bg2 h3{
     text-align: center;
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 25px;
 }
 .bg21{
     align-items: center;
@@ -544,14 +544,14 @@ button{
 }
 .tarif1 h1{
     margin-top: 70px;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     text-decoration: underline;
 }
 .tarif1 h2{
     margin-top: 60px;
     margin-bottom: 40px;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 }
 .tarif2{
@@ -563,20 +563,20 @@ button{
 
 }
 .tarif21 h2{
-    font-size: 35px;
+    font-size: 23px;
 
 }
 .tarif21 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;
 }
 .tarif22 h2{
-    font-size: 35px;
+    font-size: 23px;
     margin-left: 250px;
 
 }
 .tarif22 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 250px;
     margin-top: 20px;
 }
@@ -588,20 +588,20 @@ button{
     
 }
 .tarif31 h2{
-    font-size: 35px;
+    font-size: 23px;
 
 }
 .tarif31 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;    
 }
 .tarif32 h2{
-    font-size: 35px;
+    font-size: 23px;
     margin-left: 100px;
     
 }
 .tarif32 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 100px;
     margin-top: 20px;
 }
@@ -615,30 +615,30 @@ button{
     
 }
 .tarif41 h2{
-    font-size: 35px;
+    font-size: 23px;
 
 }
 .tarif41 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 20px;    
 }
 .tarif42{
     margin-bottom: 80px;
 }
 .tarif42 h2{
-    font-size: 35px;
+    font-size: 23px;
     margin-left: 100px;
     
 }
 .tarif42 p{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 100px;
     margin-top: 20px;
 }
 .tarif5 h2{
     margin-top: 60px;
     margin-bottom: 50px;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
 }
 .tarif6{
@@ -646,12 +646,12 @@ button{
 }
 .tarif6 h2{
     margin-top: 40px;
-    font-size: 35px;
+    font-size: 23px;
 }
 .tarif6 p{
     margin-bottom: 10px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -724,13 +724,13 @@ button{
 }
 
 .etat2 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 30px;
     margin-top: 30px;
 
 }
 .etat2 h2 a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
 }
 .etat2 img{
@@ -783,12 +783,12 @@ button{
     margin-bottom: 60px;
     margin-top: 60px;
     text-align: center;
-    font-size: 45px;
+    font-size: 28px;
 }
 .etapes1 p{
     margin-top: 10px;
     text-align: center;
-    font-size: 35px;
+    font-size: 23px;
     margin-bottom: 80px;
 }
 .etapes2{
@@ -799,15 +799,15 @@ button{
 .etapes21 h1{
     text-align: center;
     background: linear-gradient(rgb(98, 144, 230),gray);
-    font-size: 100px;
+    font-size: 60px;
     border-radius: 70px;
-    width: 120px;
+    width: 70px;
     margin-right: 60px;
     margin-left: 30px;
 
 }
 .etapes22 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -816,7 +816,7 @@ button{
 }
 .etapes22 a{
     color: black;
-    font-size: 35px;
+    font-size: 20px;
     text-decoration: underline;
     margin-bottom: 0px;
 
@@ -829,14 +829,14 @@ button{
 .etapes31 h1{
     text-align: center;
     background: linear-gradient(rgb(98, 144, 230),gray);
-    font-size: 100px;
+    font-size: 60px;
     border-radius: 70px;
-    width: 120px;
+    width: 70px;
     margin-right: 60px;
     margin-left: 30px;
 }
 .etapes32 h2{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .etapes4 img{
@@ -851,20 +851,20 @@ button{
 .etapes51 h1{
     text-align: center;
     background: linear-gradient(rgb(98, 144, 230),gray);
-    font-size: 100px;
+    font-size: 60px;
     border-radius: 70px;
-    width: 120px;
+    width: 70px;
     margin-right: 60px;
     margin-left: 30px;
 }
 .etapes52 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 
 }
 .etapes h2 a{
     color: blue;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
@@ -877,14 +877,14 @@ button{
 .etapes61 h1{
     text-align: center;
     background: linear-gradient(rgb(98, 144, 230),gray);
-    font-size: 100px;
+    font-size:60px;
     border-radius: 70px;
-    width: 120px;
+    width: 70px;
     margin-right: 60px;
     margin-left: 30px;
 }
 .etapes62 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 
 }
@@ -898,28 +898,28 @@ button{
 .etapes71 h1{
     text-align: center;
     background: linear-gradient(rgb(98, 144, 230),gray);
-    font-size: 100px;
+    font-size: 60px;
     border-radius: 70px;
-    width: 120px;
+    width: 70px;
     margin-right: 60px;
     margin-left: 30px;
 }
 .etapes72 h2{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 10px;
 
 }
 
 .etapes8 p{
     margin-top: 25px;
-    font-size: 35px;
+    font-size: 20px;
     margin-bottom: 40px;
     text-align: center;
 }
 .etapes9 h2{
     margin-top: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 /* tab */
@@ -1022,16 +1022,16 @@ button{
 .fin111 h1{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px;
-    font-size: 50px;
+    font-size: 30px;
 
 }
 .fin111 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 18px;
     margin-top: 20px;
 }
 .fin111 h2 a{
-    font-size: 21px;
+    font-size: 18px;
     color: blueviolet;
 }
 .fin111 img{
@@ -1041,7 +1041,7 @@ button{
 }
 .fin111 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
+    font-size: 18px;
     color: grey;
     
 }
@@ -1054,7 +1054,7 @@ button{
 }
 .fin1121 h2{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 23px;
     margin-bottom: 20px;
     margin-top: 30px;
     
@@ -1063,12 +1063,13 @@ button{
 .fin1121 li{
     margin-top: 10px;
     list-style: none;
+    font-size: 18px;
     
 
 }
 .fin1121 li a{
     color: grey;
-    font-size: 28px;
+    font-size: 18px;
 }
 .fin12 {
     margin-left: 70px;
@@ -1080,7 +1081,7 @@ button{
 }
 .fin12 p{
     margin-top: 10px;
-    font-size: 28px;
+    font-size: 18px;
 }
 .fin12 h2{
     margin-top: 10px;
