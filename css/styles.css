@@ -35,11 +35,11 @@ div.logo{
 
 }
 div.logo img{
-    width: 140px;
-    height: 110px;
+    width: 100px;
+    height: 80px;
 }
 div.logo h1{
-    font-size: 45px;
+    font-size: 35px;
     color: gray;
 }
 div.logo h1 span{
@@ -61,12 +61,12 @@ div.logo h1 span{
 .menu li a{
     color: gray;
     transition: 0.5s;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
 }
 .menu li a:hover{
     color: rgb(98, 144, 230);
-    font-size: 23px;
+    font-size: 20px;
 }
 .menu li:hover::after{
     content: "";
@@ -87,7 +87,7 @@ div.logo h1 span{
     align-items: center;
 }
 .numéro img{
-    width: 80px;
+    width: 50px;
     margin-left: -25px;
     margin-right: 30px;
     border-radius: 60px;
@@ -95,7 +95,7 @@ div.logo h1 span{
 }
 .numéro p{
     margin-right: 20px;
-    font-size: 29px;
+    font-size: 20px;
     color: white;
 }
 
@@ -233,7 +233,7 @@ img.bg{
     box-shadow: 0 0 10px black;
 }
 .text h1{
-    font-size: 100px;
+    font-size: 70px;
     color: gray;
     font-weight: 600;
     padding: 0;
@@ -246,7 +246,7 @@ img.bg{
 }
 .text h4{
     font-weight: 500;
-    font-size: 23px;
+    font-size: 18px;
     margin-top: 15px;
     margin-bottom: 10px;
     color: rgb(65, 65, 65);
@@ -311,13 +311,13 @@ img.bg{
 }
 .service h2{
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
 }
 .service p{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 17px;
     font-size: 25px;
 }
 .service2{
@@ -332,17 +332,17 @@ img.bg{
     border-radius: 60px;
     width: 50%;
     margin-top: 40px;
-    height: 70px;
+    height: 50px;
     margin-left: 25%;
     margin-bottom: 40px;
 }
 .service button a{
     color: white;
-    font-size: 23px;
+    font-size: 17px;
     transition: 0.5s;
 }
 .service button a:hover{
-    font-size: 27px;
+    font-size: 22px;
 }
 /* tab */
 @media (max-width:1280px) {
@@ -418,19 +418,19 @@ img.bg{
 .img1{ 
     margin-top: 90px;
     margin-bottom: 20px;
-    width: 9%;
+    width: 5%;
     
 }
 .deuxieme h2{
     color: white;
     text-align: center;
-    font-size: 37px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .deuxieme p{
     color: white;
     text-align: center;
-    font-size: 28px;
+    font-size: 18px;
     color: rgb(196, 196, 196);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -481,16 +481,16 @@ img.bg{
 .option1 h2{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 25px;
 
 }
 .option1 p{
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .option1 p a{
-    font-size: 30px;
+    font-size: 18px;
     text-decoration: underline;
 }
 .option2{
@@ -509,19 +509,19 @@ img.bg{
     margin-top: 100px;
     margin-bottom: 60px;
     width: 110px;
-    font-size: 90px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .option2 h2{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 
 }
 .option2 p{
     margin-top: 30px;
-    font-size: 27px;
+    font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -540,19 +540,19 @@ img.bg{
     margin-top: 100px;
     margin-bottom: 60px;
     width: 110px;
-    font-size: 90px;
+    font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .option3 h2{
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 
 }
 .option3 p{
     margin-top: 30px;
-    font-size: 27px;
+    font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
